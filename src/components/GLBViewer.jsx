@@ -37,7 +37,7 @@ const GLBViewer = ({ url }) => {
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.3} />
         <Suspense fallback={null}>
-          <HDRBackground path="models/dalle.hdr" />
+          <HDRBackground path="models/DALL·E-2024-01-25-22.04.hdr" />
           <Model url={url} />
           <FlyingObjects />
         </Suspense>
